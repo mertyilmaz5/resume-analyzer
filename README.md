@@ -28,13 +28,7 @@ The main component of the frontend is `Chatting.js`. It utilizes the `react-simp
    npm install
    ```
 
-3. Create an "uploads" directory:
-
-   ```bash
-   mkdir uploads
-   ```
-
-4. Start the development server:
+3. Start the development server:
 
    ```bash
    npm start
@@ -64,7 +58,13 @@ The backend server is implemented in `server.js` using Express and Multer for ha
    npm install
    ```
 
-3. Start the server:
+3. Create an "uploads" directory:
+
+   ```bash
+   mkdir uploads
+   ```
+
+4. Start the server:
 
    ```bash
    node server.js
