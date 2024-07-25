@@ -19,22 +19,16 @@ The main component of the frontend is `Chatting.js`. It utilizes the `react-simp
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mertyilmaz5/resume-analyzer.git
    ```
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd <project-directory>
-   ```
-
-3. Install the dependencies:
+2. Install the dependencies:
 
    ```bash
    npm install
    ```
 
-4. Start the development server:
+3. Start the development server:
 
    ```bash
    npm start
