@@ -28,7 +28,13 @@ The main component of the frontend is `Chatting.js`. It utilizes the `react-simp
    npm install
    ```
 
-3. Start the development server:
+3. Create an "uploads" directory:
+
+   ```bash
+   mkdir uploads
+   ```
+
+4. Start the development server:
 
    ```bash
    npm start
@@ -38,10 +44,10 @@ The main component of the frontend is `Chatting.js`. It utilizes the `react-simp
 
 ### `server.js`
 
-The backend server is implemented in `server.js` using Express and Multer for handling file uploads. The server processes the uploaded CV using the OpenAI API and provides a response with analysis results. Key features include:
+The backend server is implemented in `server.js` using Express and Multer for handling file uploads. The server processes the uploaded CV using the OpenAI Assistants API and provides a response with analysis results. Key features include:
 
 - **File Upload Handling**: Uses Multer to handle file uploads and checks for supported file types.
-- **OpenAI API Integration**: Communicates with OpenAI's API to create vector stores, upload files, and analyze the CV.
+- **OpenAI Assistants API Integration**: Communicates with OpenAI's Assistants API to create vector stores, upload files, and analyze the CV.
 - **Asynchronous Operations**: Uses Axios to manage API requests and handle responses.
 
 ### Installation (Backend)
